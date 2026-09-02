@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            Nome:<br>
+            <input type="text" name="nome" placeholder="Digite seu nome"><br>
+            Sobrenome:<br>
+            <input type="text" name="sobrenome" disabled><br>
+            <hr>
+            <input type="radio" name="genero" value="Masculino" checked>Masculino<br>
+            <input type="radio" name="genero" value="Feminino">Feminino<br>
+            <input type="radio" name="genero" value="Outro">Outro<br>
+            <hr>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Linguas</legend>
+            <input type="checkbox" name="tipo1" value="1">Inglês<br>
+            <input type="checkbox" name="tipo2" value="2">Frances<br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Escolha seu carro:</legend>
+            <select name="carros">
+                <option value="polo">Polo</option>
+                <option value="fusca">Fusca</option>
+                <option value="voyage">Voyage</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
