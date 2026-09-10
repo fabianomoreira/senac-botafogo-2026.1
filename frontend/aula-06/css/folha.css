@@ -1,0 +1,11 @@
+.letra {
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+    }
+.cor {
+    color: red;
+}
+body {
+    background-color: gray;
+}
