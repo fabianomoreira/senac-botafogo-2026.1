@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .etiqueta{
+            font-weight: bold;
+            font-style: italic;
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <form action="sucesso.html" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+                <label class="etiqueta">Nome:</label><br>
+                <input type="text" name="nome" size="50" placeholder="Digite seu nome aqui"><br>
+                <label class="etiqueta">Sobrenome:</label><br>
+                <input type="text" name="sobrenome" maxlength="30"><br>
+                
+                <br>
+                <br>
+
+                <!--radio-->
+                Turma de preferência:<br>
+                <input type="radio" name="turma" value="1" checked> Manhã<br>
+                <input type="radio" name="turma" value="2"> Noite<br>
+                
+                <br>
+                <br>
+                <!--Checkbox-->
+
+                Linguagem de interesse:<br>
+                <input type="checkbox" name="tipo1" value="1"> HTML<br>
+                <input type="checkbox" name="tipo2" value="2"> css<br><br>
+
+                Cidade de residencia:<br>
+                <select name="Naturalidade">
+                <option value="">Escolha uma opção</option>
+                <option value="Rio de janeiro">Rio de janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Espirito Santo">Espirito Santo</option>
+            </select><br><br>
+
+            Comentários Adicionais:<br>
+               <textarea name="vai" rows="5" cols="40">
+Digite seu nome aqui
+                </textarea><br><br>
+
+             <input type="submit" value="Confirmar">
+               
+
+        </fieldset><br><br>
+
+    </form>
+</body>
+</html>
