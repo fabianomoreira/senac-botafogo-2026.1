@@ -1,0 +1,122 @@
+/*
+-------------------------------------------------
+1. Configurações gerais e fontes
+-------------------------------------------------
+*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.destaque-verde {
+    color: #4caf50;
+}
+
+.divisor-secao{
+    border: 0;
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 40px 0;
+}
+
+/*
+-------------------------------------------------
+2. Cabeçalho
+-------------------------------------------------
+*/
+.header-principal{
+    background-color: #ffffff;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 10px 40px;
+}
+
+.menu-navegacao{
+    display: inline-block;
+    text-align: right;
+    width: 68%;
+}
+
+.menu-navegacao ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacao li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-navegacao a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 16px;
+}
+
+.menu-navegacao a:hover{
+    color: #4caf50;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0;
+    font-size: 28px;
+    width: 30%;
+}
+
+/*
+-------------------------------------------------
+3. Secão de boas vindas
+-------------------------------------------------
+*/
+.secao-hero{
+    background-color: #e8f5e9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.secao-hero h2{
+    font-size: 36px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.secao-hero p{
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.container-centro{
+    width: 600px;
+    margin: auto;
+}
+
+.botao-principal{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor:pointer
+}
+
+/*
+-------------------------------------------------
+Rodapé
+-------------------------------------------------
+*/
+.rodape-pagina{
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}

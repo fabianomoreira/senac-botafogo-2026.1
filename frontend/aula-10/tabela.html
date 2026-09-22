@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela CSS</title>
+
+    <style>
+        #lista {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #lista td,
+        #lista th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        /* nth-chield (loop) */
+        #lista tr:nth-child(even) {
+            background-color: lightgreen;
+        }
+
+        #lista tr:hover {
+            background-color: #ddd;
+        }
+
+
+        #lista th {
+
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="lista">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Claudio José</td>
+            <td>14</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>Luiz Antonio</td>
+            <td>52</td>
+            <td>Juiz de Fora</td>
+        </tr>
+        <tr>
+            <td>Claudio José</td>
+            <td>14</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>Luiz Antonio</td>
+            <td>52</td>
+            <td>Juiz de Fora</td>
+        </tr>
+    </table>
+</body>
+
+</html>
