@@ -1,0 +1,209 @@
+/*
+-------------------------------------------------
+1. Configurações gerais e fontes
+-------------------------------------------------
+*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.destaque-verde {
+    color: #4caf50;
+}
+
+.divisor-secao{
+    border: 0;
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 40px 0;
+}
+
+/*
+-------------------------------------------------
+2. Cabeçalho
+-------------------------------------------------
+*/
+.header-principal{
+    background-color: #ffffff;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 10px 40px;
+}
+
+.menu-navegacao{
+    display: inline-block;
+    text-align: right;
+    width: 68%;
+}
+
+.menu-navegacao ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacao li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-navegacao a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 16px;
+}
+
+.menu-navegacao a:hover{
+    color: #4caf50;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0;
+    font-size: 28px;
+    width: 30%;
+}
+
+/*
+-------------------------------------------------
+3. Secão de boas vindas
+-------------------------------------------------
+*/
+.secao-hero{
+    background-color: #e8f5e9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.secao-hero h2{
+    font-size: 36px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.secao-hero p{
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.container-centro{
+    width: 600px;
+    margin: auto;
+}
+
+.botao-principal{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor:pointer
+}
+
+/*
+-------------------------------------------------
+Formulário
+-------------------------------------------------
+*/
+.secao-contato {
+    padding: 20px;
+}
+
+.formulario-container{
+    width: 450px;
+    margin: auto;
+    border: 2px solid #4caf50;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.formulario-container legend{
+    font-weight: bold;
+    color: #2e7d32;
+    padding: 0 10px;
+}
+
+.rotulo{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo-texto, .campo-selecao, .campo-textarea{
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.campo-textarea{
+    resize: none;
+}
+
+.botao-formulario{
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+/*
+-------------------------------------------------
+Rodapé
+-------------------------------------------------
+*/
+.rodape-pagina{
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/*
+-------------------------------------------------
+Cards
+-------------------------------------------------
+*/
+.card-viagem{
+    display: inline-block;
+    width: 28%;
+    margin: 0 1.5%;
+    background-color: #ffffff;
+    border: 1px solid #2e7d32;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+}
+
+.img-card{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.secao-destinos{
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-secao{
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 30px;
+}

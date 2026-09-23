@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoViagens - Agência de Turismo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho Principal -->
+    <header class="header-principal">
+        <h1 class="logo">Eco<span class="destaque-verde">Viagens</span></h1>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal/Boas-vindas-->
+    <section class="secao-hero">
+        <div class="container-centro">
+            <h2>Explore o Mundo Conosco</h2>
+            <p>Conectamos você aos destinos ecológicos mais bonitos e preservados
+                do planeta. Viva uma experiência inesquecível em harmonia com a 
+                natureza.
+            </p>
+            <button class="botao-principal">Quero viajar!</button>
+        </div>
+    </section>
+
+    <hr class="divisor-secao">
+
+    <!-- Seção de cards de destinos-->
+    <section class="secao-destinos">
+        <div>
+            <h2 class="titulo-secao">Destinos Populares</h2>
+
+            <!-- Card 1 -->
+            <article class="card-viagem">
+                <img src="noronha.jpg" alt="Praias paradisíacas" class="img-card">
+                <h3>Fernando de Noronha</h3>
+                <p>Mergulhe em águas cristalinas e descubra a rica fauna marinha brasileira.</p>
+                <ul>
+                    <li>Praias isoladas</li>
+                    <li>Passeios de barco</li>
+                    <li>Trilhas ecológicas</li>
+                </ul>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card-viagem">
+                <img src="amazonia.jpg" alt="Fotos incríveis" class="img-card">
+                <h3>Amazonia</h3>
+                <p>Explore a maior biodiversidade do mundo em uma imersão na floresta tropical.</p>
+                <ul>
+                    <li>Hospedagem na selva</li>
+                    <li>Fotografia noturna</li>
+                    <li>Visita a comunidades</li>
+                </ul>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card-viagem">
+                <img src="chapada.jpg" alt="Montanhas verdes" class="img-card">
+                <h3>Chapada Diamantina</h3>
+                <p>Aventure-se por cachoeiras majestosas, grutas profundas e mirantes naturais.</p>
+                <ul>
+                    <li>Rapel e escalada</li>
+                    <li>Cachoeiras gigantes</li>
+                    <li>Grutas com águas azuis</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <hr class="divisor-secao">
+
+    <!-- Seção de contato, com formulário -->
+    <section id="contato" class="secao-contato">
+        <fieldset class="formulario-container">
+            <legend>Reserve a sua próxima aventura</legend>
+            <form action="confirma.html" method="POST">
+                <label class="rotulo">Seu nome:</label>
+                <input class="campo-texto" type="text" name="nome" placeholder="Digite o seu nome completo" required>
+                <label class="rotulo">Seu email:</label>
+                <input class="campo-texto" type="text" name="email" placeholder="Seu melhor email" required>
+                <label class="rotulo">Selecione seu destino:</label>
+                <select name="destino-escolhido" class="campo-selecao">
+                    <option value="noronha">Fernando de Noronha</option>
+                    <option value="amazonia">Amazonia</option>
+                    <option value="chapada">Chapada Diamantina</option>
+                </select>
+                <label class="rotulo">Mensagem e/ou observações</label>
+                <textarea class="campo-textarea" name="mensagem" rows="5" placeholder="Algum pedido especial?"></textarea>
+                <input type="submit" value="Enviar solicitação" class="botao-formulario">
+            </form>
+        </fieldset>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape-pagina">
+        <p>Contato: contato@ecoviagens.com.br</p>
+    </footer>
+</body>
+</html>
